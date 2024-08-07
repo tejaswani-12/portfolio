@@ -1,0 +1,196 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #7FA1C3, #E2DAD6, #F5EDED);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .navMe{
+    border-radius: 50%;
+  }
+  .nav-pills .nav-link.active, .show>.nav-link {
+    color:white;
+    background-color: #7FA1C3;
+}
+.nav-link{
+    color:#6482AD;
+
+}
+a:hover {
+    background: #7FA1C3;
+  }
+.nav {
+ --bs-nav-link-hover-color: white;
+}
+.port{
+    color:#6482AD;
+}
+.intro{
+    font-family:"Sacramento", cursive;
+    font-weight: 900;
+    font-size:50px;
+    text-align: center;
+    color:#6482AD;
+    padding-bottom: 20px;
+}
+.dp{
+    border-radius: 50%;
+    height:150px;
+    display: block;
+    margin: 0 auto;
+}
+.name{
+    color:rgba(0, 0, 0, 0.413);
+    text-align:center;
+    padding:5px 5px 0px 5px;
+}
+.title{
+    text-align:center;
+}
+.about{
+    text-align:center;
+    font-weight: bold;
+    color:#7896b4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.justify{
+    text-align:justify;
+    width: 50%;
+    margin: auto;
+}
+.dot{
+    color:#E2DAD6;
+    text-align:center;
+    font-weight: bolder;
+}
+h6{
+    color:rgba(22, 16, 16, 0.564);
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.edu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem; 
+      width:100%;
+}
+.edu-title{
+    text-align:center;
+    padding:5px;
+    background-color:#ead4ca;
+    flex:1;
+    height:auto;
+    width:330px;
+    border-radius: 5px;
+}
+@media(max-width: 600px){
+    .edu{
+        flex-direction: column;
+        width:100%;
+    }
+    .justify{
+        width:90%;
+    }
+}
+@media(min-width:540px) and (max-width:720px){
+    .justify{
+        width:100%;
+        padding-left:50px;
+        padding-right:50px;
+    }
+}
+.plan-title{
+    font-weight: bold;
+    color:#a08c82;
+    font-size: 18px;
+    padding-bottom: 7px;
+}
+.col{
+    background-color: #F5EDED;
+    display:flex;
+    border:solid;
+    border-color: rgb(203, 164, 164);
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
+.row{
+    background-color: #7FA1C3;
+    padding:10px;
+    border:solid;
+    border-color:#627e99;
+}
+.henna{
+    float:left;
+}
+.hair{
+    float:right;
+}
+.hob{
+    height:150px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+.hobbies{
+    padding: 5px 35px 35px 35px;
+}
+.int{
+    text-align: center;
+    padding-bottom: 10px;
+    color:#dfbcab;
+}
+.grid{
+    height:425px;
+    width:950px;
+    text-align: center;
+    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 200px 200px ;
+    gap:25px;
+}
+.MComposite{
+    grid-row: span 2;
+}
+.item{
+    border:10px solid #dfbcab;
+}
+/* Apply transparency on hover */
+.grid .item a:hover img {
+    border:10px solid #433f3f;
+     
+}
+.contact{
+    display: block;
+    margin: 0 auto;
+}
+.bn1{
+    text-align: center;
+    color:#6482AD;
+}
+.bn2{
+    text-align: center;
+    color:#7FA1C3;
+}
+.footer{
+    display:block;
+}
+  
